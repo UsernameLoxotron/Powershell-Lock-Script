@@ -11,7 +11,25 @@ $asciiArt = @"
                        .oodMMMMMMMMMMMMM
            ..oodMMM  MMMMMMMMMMMMMMMMMMM
      oodMMMMMMMMMMM  MMMMMMMMMMMMMMMMMMM
-     MMMMMMMMMMMMMM  MMMMMMMMMMM…and closing browsers in 5 seconds..." -ForegroundColor Yellow
+     MMMMMMMMMMMMMM  MMMMMMMMMMM…M
+     MMMMMMMMMMMMMM  MMMMMMMMMMMMMMMMMMM
+     MMMMMMMMMMMMMM  MMMMMMMMMMMMMMMMMMM
+     MMMMMMMMMMMMMM  MMMMMMMMMMMMMMMMMMM
+     MMMMMMMMMMMMMM  MMMMMMMMMMMMMMMMMMM
+    
+     MMMMMMMMMMMMMM  MMMMMMMMMMMMMMMMMMM
+     MMMMMMMMMMMMMM  MMMMMMMMMMMMMMMMMMM
+     MMMMMMMMMMMMMM  MMMMMMMMMMMMMMMMMMM
+     MMMMMMMMMMMMMM  MMMMMMMMMMMMMMMMMMM
+     MMMMMMMMMMMMMM  MMMMMMMMMMMMMMMMMMM
+     `^^^^^^MMMMMMM  MMMMMMMMMMMMMMMMMMM
+           ````^^^^  ^^MMMMMMMMMMMMMMMMM
+                         ````^^^^^^MMMM
+"@
+
+Clear-Host
+Write-Host $asciiArt -ForegroundColor Cyan
+Write-Host "`nLocking workstation and closing browsers in 5 seconds..." -ForegroundColor Yellow
 
 try {
     # Disable keyboard and mouse
